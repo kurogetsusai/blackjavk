@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorPane" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainWindow">
+	<children>
+		<Label fx:id="fxBalance" layoutX="10.0" layoutY="10.0" text="Balance: 0" />
+		<Label fx:id="fxBet" layoutX="10.0" layoutY="30.0" text="Bet: 0" />
+		<Button fx:id="fxStart" layoutX="10.0" layoutY="80.0" prefWidth="120.0" mnemonicParsing="false" onAction="#fxStartClick" text="Start" />
+		<Button fx:id="fxBet1" layoutX="10.0" layoutY="110.0" prefWidth="120.0" mnemonicParsing="false" onAction="#fxBet1Click" text="+1" />
+		<Button fx:id="fxBet5" layoutX="10.0" layoutY="140.0" prefWidth="120.0" mnemonicParsing="false" onAction="#fxBet5Click" text="+5" />
+		<Button fx:id="fxBet10" layoutX="10.0" layoutY="170.0" prefWidth="120.0" mnemonicParsing="false" onAction="#fxBet10Click" text="+10" />
+		<Button fx:id="fxBet50" layoutX="10.0" layoutY="200.0" prefWidth="120.0" mnemonicParsing="false" onAction="#fxBet50Click" text="+50" />
+		<Button fx:id="fxBet100" layoutX="10.0" layoutY="230.0" prefWidth="120.0" mnemonicParsing="false" onAction="#fxBet100Click" text="+100" />
+		<Button fx:id="fxBet500" layoutX="10.0" layoutY="260.0" prefWidth="120.0" mnemonicParsing="false" onAction="#fxBet500Click" text="+500" />
+		<Button fx:id="fxBet1000" layoutX="10.0" layoutY="290.0" prefWidth="120.0" mnemonicParsing="false" onAction="#fxBet1000Click" text="+1000" />
+		<Button fx:id="fxHit" layoutX="10.0" layoutY="320.0" prefWidth="120.0" mnemonicParsing="false" onAction="#fxHitClick" text="Hit" />
+		<Button fx:id="fxStand" layoutX="10.0" layoutY="350.0" prefWidth="120.0" mnemonicParsing="false" onAction="#fxStandClick" text="Stand" />
+		<Button fx:id="fxDoubleDown" layoutX="10.0" layoutY="380.0" prefWidth="120.0" mnemonicParsing="false" onAction="#fxDoubleDownClick" text="Double Down" />
+		<Button fx:id="fxSplit" layoutX="10.0" layoutY="410.0" prefWidth="120.0" mnemonicParsing="false" onAction="#fxSplitClick" text="Split" />
+		<Label fx:id="fxPointsCasino" layoutX="200.0" layoutY="10.0" text="Points: 0" />
+		<Label fx:id="fxPointsPlayer" layoutX="200.0" layoutY="300.0" text="Points: 0" />
+		<Label fx:id="fxPointsPlayerSplit" layoutX="300.0" layoutY="300.0" text="Points: 0" />
+		<Label fx:id="fxSplitArrow1" layoutX="225.0" layoutY="270.0" text="↓" />
+		<Label fx:id="fxSplitArrow2" layoutX="335.0" layoutY="270.0" text="↓" />
+	</children>
+</AnchorPane>

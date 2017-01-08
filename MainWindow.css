@@ -1,0 +1,21 @@
+.card {
+	-fx-padding: 4px;
+	-fx-border-width: 2px;
+	-fx-border-radius: 4px;
+	-fx-border-color: #2e3436;
+	-fx-background-radius: 6px;
+	-fx-background-color: #eeeeec;
+	-fx-font-family: Verdana, sans-serif;
+	-fx-font-size: 16px;
+}
+
+.card-reversed {
+	-fx-padding: 4px;
+	-fx-border-width: 2px;
+	-fx-border-radius: 4px;
+	-fx-border-color: #2e3436;
+	-fx-background-radius: 6px;
+	-fx-background-color: #555753;
+	-fx-font-family: Verdana, sans-serif;
+	-fx-font-size: 16px;
+}
